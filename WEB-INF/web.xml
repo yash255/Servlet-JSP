@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  
+  <welcome-file-list>
+  <welcome-file>Home.html</welcome-file>
+  </welcome-file-list>
+  
+  
+  
+  
+  <!-- servlet decleration -->
+	<!-- <servlet>
+		<servlet-name>first</servlet-name>
+		<servlet-class>Servlets.FirstServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>second</servlet-name>
+		<servlet-class>Servlets.SecondServlet</servlet-class>
+	</servlet> -->
+	
+	<servlet>
+		<servlet-name>Http</servlet-name>
+		<servlet-class>Servlets.Http</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>register</servlet-name>
+		<servlet-class>Servlets.RegisterServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>success</servlet-name>
+		<servlet-class>Servlets.Success</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>a1</servlet-name>
+		<servlet-class>attr.a1</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>a2</servlet-name>
+		<servlet-class>attr.a2</servlet-class>
+	</servlet>
+
+	<!-- mapping -->
+
+	<!-- <servlet-mapping>
+		<servlet-name>first</servlet-name>
+		<url-pattern>/web</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>second</servlet-name>
+		<url-pattern>/web2</url-pattern>
+	</servlet-mapping> -->
+	
+	<servlet-mapping>
+		<servlet-name>Http</servlet-name>
+		<url-pattern>/http</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>register</servlet-name>
+		<url-pattern>/RegisterServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>success</servlet-name>
+		<url-pattern>/Success</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>a1</servlet-name>
+		<url-pattern>/a1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>a2</servlet-name>
+		<url-pattern>/a2</url-pattern>
+	</servlet-mapping>
+</web-app>
